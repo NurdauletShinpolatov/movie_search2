@@ -1,0 +1,75 @@
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.nav_logo{
+    font-size: 26px;
+}
+
+.banner{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    margin: 0;
+    font-size: 26px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.search input{
+    padding: 0 10px;
+}
+
+.search input::placeholder{
+    color: rgb(58, 58, 58);
+}
+
+.cinema-container{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.movie-card{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.movie-card img{
+    width: 100%;
+}
+
+.movie-card body{
+    padding: 10px 20px;
+}
+
+.movie-card h4{
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.movie-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
