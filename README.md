@@ -1,3 +1,7 @@
+# What does this project do
+
+In this project you can search for a movie and get information
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
